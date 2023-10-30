@@ -1,0 +1,100 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   
+}
+body{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 440px;
+    background-image: url("https://wallpaperaccess.com/full/3353905.jpg");
+    background-size: cover;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 39% 39%;
+    grid-template-rows: 50px 470px;
+    font-family: Georgia, serif;
+}
+.head {
+    background-color:blue;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+}
+.main {
+    background-image: linear-gradient(to top,pink,gold,pink);
+    grid-column:1/2 ;
+    grid-row: 2/3;
+    border-radius: 5px;
+    font-size:18px;
+    border: 1px solid black;
+}
+.box{
+    margin: 40px 20px;
+    
+}
+#service{
+    background-color:whitesmoke ;
+    height: 40px;
+    width: 220px;
+    border-radius: 3px;
+    margin: 12px 27px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+#bill{
+    background-color:whitesmoke ;
+    height: 40px;
+    width: 220px;
+    border-radius: 3px;
+    padding-left: 20px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+}
+#people{
+    background-color:whitesmoke ;
+    height: 40px;
+    width: 220px;
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 7px 26px;
+    padding-left: 20px;
+    font-size: large;
+    border: 1px solid black;
+}
+.button{
+    width: 90px;
+    font-size: 12px;
+    height: 28px;
+    color: white;
+    border-radius: 3px;
+    position: relative;
+    left: 90px;
+    top: 6px;
+    background-color: orangered;
+    border: 1px solid whitesmoke;
+}
+.tip{
+    position: relative;
+    left: 76px;
+    top: 12px;
+    font-weight: bold;
+}
+#amount{
+    font-size: larger;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+}
+.how{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
